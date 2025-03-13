@@ -1,7 +1,15 @@
 // JS Step 1: API configuration
+const API_KEY = ""; // Your API key goes in the empty string
+const BASE_URL = "https://api.themoviedb.org/3";
+const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
 
-
-// JS Step 2: DOM Elements
+// JS Step 2: DOM Elements (Finished already -- no edits needed)
+const searchInput = document.getElementById("search-input");
+const searchButton = document.getElementById("search-button");
+const searchResultsContainer = document.getElementById("search-results");
+const favoritesContainer = document.getElementById("favorites");
+const searchViewBtn = document.getElementById("search-view-btn");
+const favoritesViewBtn = document.getElementById("favorites-view-btn");
 
 
 // JS Step 3: State
